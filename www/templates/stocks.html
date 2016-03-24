@@ -2,7 +2,11 @@
   <ion-content>
     <ion-list>
       <ion-item ng-repeat="stock in stocks" ui-sref="app.stock({stockId: stock.title})">
-        {{stock.title}}
+        <div class="row row-center">
+          <div class="col">
+            {{stock.title}}
+          </div>
+        </div>
       </ion-item>
     </ion-list>
   </ion-content>

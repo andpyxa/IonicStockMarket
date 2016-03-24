@@ -43,12 +43,12 @@ angular.module('IonicStockMarket.controllers', [])
 
 .controller('StocksCtrl', function($scope) {
   $scope.stocks = [
-    { title: 'Regga', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
+    { title: 'AAPPL', id: 1 },
+    { title: 'GFRD', id: 2 },
+    { title: 'NFLX', id: 3 },
+    { title: 'MSFT', id: 4 },
+    { title: 'BRKA', id: 5 },
+    { title: 'INTC', id: 6 }
   ];
 })
 
